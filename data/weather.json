@@ -1,0 +1,102 @@
+[
+	{
+		"weather": [
+			{
+				"id": 802,
+				"main": "Clouds"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 293.15,
+			"temp_min": 291.15,
+			"temp_max": 258.15,
+			"humidity": 73
+		},
+		"wind": {
+			"speed": 1.5
+		},
+		"sys": {
+			"type": 1,
+			"id": 8590,
+			"country": "CO"
+		},
+		"name": "Santiago de Cali",
+		"cod": 200
+	},
+	{
+		"weather": [
+			{
+				"id": 238,
+				"main": "Sunset"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 234.15,
+			"temp_min": 112.15,
+			"temp_max": 43.15,
+			"humidity": 234
+		},
+		"wind": {
+			"speed": 1.1
+		},
+		"sys": {
+			"type": 1,
+			"id": 8490,
+			"country": "CO"
+		},
+		"name": "Bogotá",
+		"cod": 349
+	},
+	{
+		"weather": [
+			{
+				"id": 238,
+				"main": "Sunset"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 254.15,
+			"temp_min": 112.15,
+			"temp_max": 43.15,
+			"humidity": 20
+		},
+		"wind": {
+			"speed": 1
+		},
+		"sys": {
+			"type": 1,
+			"id": 8490,
+			"country": "CO"
+		},
+		"name": "Medellín",
+		"cod": 349
+	},
+	{
+		"weather": [
+			{
+				"id": 238,
+				"main": "Sunset"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 334.15,
+			"temp_min": 112.15,
+			"temp_max": 43.15,
+			"humidity": 0.2
+		},
+		"wind": {
+			"speed": 5.2
+		},
+		"sys": {
+			"type": 1,
+			"id": 8490,
+			"country": "CO"
+		},
+		"name": "Barranquilla",
+		"cod": 349
+	}
+]
