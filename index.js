@@ -27,7 +27,7 @@ app.use(cors(corsOptions))
 app.use('/', routes());
 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 3000;
 
 // Start APP
 app.listen(port, host, () => {
