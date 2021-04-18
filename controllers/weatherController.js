@@ -7,6 +7,7 @@ const data = require('./../data/weather.json')
  * @returns Returns to the client the weather.json data if and only if, the client used the correct API_KEY
  */
 exports.weatherHome = (request, response) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
     // API_KEY required to give acces to the user
     if(request.query.api_key === "XE6pZUooSW0S9ZB29QjZonI6bsbJ1kG6"){
         response.json(data);
