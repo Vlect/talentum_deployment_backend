@@ -27,11 +27,11 @@ app.use(cors(corsOptions))
 app.use('/', routes());
 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 7000;
 
 // Start APP
 app.listen(port, host, () => {
     console.log('El servidor esta funcionando.')
 });
 
-// app.listen(8000)
+// app.listen(7000)
